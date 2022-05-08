@@ -41,6 +41,7 @@ a.nvim_create_user_command('Compe',
     end
 
     a.nvim_command('NvimTreeRefresh')
+    a.nvim_command('NvimTreeClose')
     a.nvim_command('only')
     a.nvim_command(string.format('edit %s/solve.cpp', dir))
     a.nvim_command(string.format('vsplit %s/in', dir))
